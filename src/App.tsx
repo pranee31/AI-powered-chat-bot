@@ -8,6 +8,7 @@ import PaymentPage from './pages/Payment';
 import ProfilePage from './pages/ProfilePage';
 <Route path="/payment" element={<PaymentPage />} />
 import Chatbot from './components/Chatbot';
+import AddToCartPage from './pages/AddToCart';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/signup" element={<SignUpPage />} />
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/cart" element={<AddToCartPage />} />
       </Routes>
       <Chatbot />
     </Router>

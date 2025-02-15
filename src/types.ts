@@ -25,4 +25,5 @@ export interface RoomCategory {
   name: string;
   description: string;
   rooms: Room[];
+  
 }
